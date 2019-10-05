@@ -29,18 +29,20 @@
         android:layout_height="wrap_content"
         android:hint="Username"
         android:layout_marginTop="50dp"
-        />
+        android:id="@+id/uName"/>
 
     <EditText
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:hint="Password"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword"
+        android:id="@+id/uPass"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
+        android:id="@+id/login"
         android:layout_marginTop="50dp"/>
 
 </LinearLayout>
