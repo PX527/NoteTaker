@@ -7,6 +7,13 @@
     tools:context=".Home"
     android:orientation="vertical">
 
+    <Button
+        android:id="@+id/btnAddNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Add note"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
